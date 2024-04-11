@@ -106,8 +106,15 @@
     )
     ```
 
-
-
+    - 기본값 매개변수 -> 매개변수 값 미할당시 기본값으로 지정
+    ```cs
+    public static void DefaultMethod(int a = 1, int b = 0)
+    {
+        DefaultMethod(10, 8) // a = 10, b = 8
+        DefaultMethod(6) // a = 6, b = 0
+        DefaultMethod() // a = 1, b = 0
+    }
+    ```
 
     - 클래스
     - C++의 클래스, 객체와 유사(문법이 다소 상이)
@@ -156,8 +163,29 @@
         - 클래스는 상속 시 별다른 문제없음 vs 인터페이스는 구현을 하면 약속을 지키지 않으면 오류표시
         - 인터페이스에서 약속한 매서드를 구현 안하면 빌드 안됨!
 
-        ![인터페이스설명](https://github.com/hugoMGSung/basic-csharp-2024/blob/main/images/db001.png?raw=true)
+        ![인터페이스설명](https://github.com/inje98/basic-csharp-2024/blob/main/Images/cs001.png?raw=true)
 
-    - 추상클래스(ab)
+    - 추상클래스(abstract)
+        - Virtual 메서드 하고도 유사
+        - 추상클래스를 단순화 시키면 인터페이스
 
+    - 프로피터
+        - 클래스의 멤버변수 변형. 일반 변수와 유사
+        - 멤버변수의 접근제한자를 public으로 했을때의 객체지향적 문제점(코드오염 등)을 해결하기 위해서
+        - GET 접근자/SET 접근자
+        - SET은 값 할당시에 잘못된 데이터가 들어가지 않도록 막아야 함
+        - Java에선 Getter메서드/Setter메서드로 사용
 
+## 2일차
+    - 컬렉션(배열, 리스트, 인덱서)
+    - 일반화(Generic) 프로그래밍
+    - 예외처리
+    - 대리자와 이벤트
+    - 람다식
+    - 애트리뷰트
+    - dynamic 형식
+    - Winform (파일, 스레드)
+    - 가비지 컬렉션
+    - 네트워크 프로그래밍
+    - WPF
+    - 예제 프로젝트

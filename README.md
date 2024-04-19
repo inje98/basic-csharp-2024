@@ -332,8 +332,14 @@
     https://github.com/inje98/basic-csharp-2024/assets/158007381/90782bc6-9dba-4f48-afa7-d745bce6f32a
 
     - 도서관리 앱 with SQL Server(Base) MordernUI(NuGet패키지)
-
-
+    ```cs
+     // 값형식 변수는 null
+    // 값형식 변수에 null값을 넣을 수 있도록 만들어준 기능  Nullable. 변수명 뒤에 ?만 추가할것
+    int? a = null;
+    double? b = null;
+    float? c = null
+    ```
+        - 로그인 패스워드 암호화 미구현
 
 ## 8일차
 - 토이 프로젝트

@@ -327,6 +327,10 @@
 ## 7일차
 - 토이 프로젝트
     - 윈도우 탐색기 앱 종료
+    - 실행결과 
+
+    https://github.com/inje98/basic-csharp-2024/assets/158007381/90782bc6-9dba-4f48-afa7-d745bce6f32a
+
     - 도서관리 앱 with SQL Server(Base) MordernUI(NuGet패키지)
 
 

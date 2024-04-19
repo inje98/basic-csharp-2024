@@ -323,13 +323,22 @@
         - 미적용 - 컨텍스트메뉴 보기 기능, 더블클릭 프로그램 실행, ...
 
 
+
 ## 7일차
 - 토이 프로젝트
     - 윈도우 탐색기 앱 종료
-    - ModernUI 앱(UI 디자인)
-    - 도서관리 앱 with SQL Server
-    - 국가교통정보센터 CCTV뷰 앱
+    - 도서관리 앱 with SQL Server(Base) MordernUI(NuGet패키지)
+
+
+
+## 8일차
+- 토이 프로젝트
+    - 도서관리 앱 종료
     - IoT Dummy 앱 with SQL Server
+
+    - 국가교통정보센터 CCTV뷰 앱
+
+    
     
 ## 개인 토이프로젝트
 - 

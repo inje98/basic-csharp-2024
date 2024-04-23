@@ -35,6 +35,7 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.MnuBookRental = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -43,7 +44,6 @@
             this.MnuBookDivision = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuBookInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuMembers = new System.Windows.Forms.ToolStripMenuItem();
-            this.MnuBookRental = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -99,6 +99,13 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
+            // MnuBookRental
+            // 
+            this.MnuBookRental.Image = global::NewBookRentalShopApp.Properties.Resources.rental;
+            this.MnuBookRental.Name = "MnuBookRental";
+            this.MnuBookRental.Size = new System.Drawing.Size(180, 22);
+            this.MnuBookRental.Text = "대출 관리";
+            // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -148,7 +155,7 @@
             // 
             // MnuBookInfo
             // 
-            this.MnuBookInfo.Image = global::NewBookRentalShopApp.Properties.Resources.book;
+            this.MnuBookInfo.Image = global::NewBookRentalShopApp.Properties.Resources.book1;
             this.MnuBookInfo.Name = "MnuBookInfo";
             this.MnuBookInfo.Size = new System.Drawing.Size(180, 22);
             this.MnuBookInfo.Text = "책정보 관리";
@@ -160,13 +167,6 @@
             this.MnuMembers.Name = "MnuMembers";
             this.MnuMembers.Size = new System.Drawing.Size(180, 22);
             this.MnuMembers.Text = "도서회원 관리";
-            // 
-            // MnuBookRental
-            // 
-            this.MnuBookRental.Image = global::NewBookRentalShopApp.Properties.Resources.rental;
-            this.MnuBookRental.Name = "MnuBookRental";
-            this.MnuBookRental.Size = new System.Drawing.Size(180, 22);
-            this.MnuBookRental.Text = "대출 관리";
             // 
             // FrmMain
             // 

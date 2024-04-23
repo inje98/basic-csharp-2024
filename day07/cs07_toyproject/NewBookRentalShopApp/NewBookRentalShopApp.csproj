@@ -58,11 +58,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBookInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookInfo.Designer.cs">
+      <DependentUpon>FrmBookInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookDivision.Designer.cs">
+      <DependentUpon>FrmBookDivision.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLoginUser.cs">
       <SubType>Form</SubType>
@@ -76,10 +88,17 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper\Common.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBookInfo.resx">
+      <DependentUpon>FrmBookInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookDivision.resx">
+      <DependentUpon>FrmBookDivision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLoginUser.resx">
       <DependentUpon>FrmLoginUser.cs</DependentUpon>
@@ -89,14 +108,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,7 +126,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="books.ico" />
-    <None Include="Resources\login.png" />
+    <Content Include="Imgs\book.ico" />
+    <Content Include="Imgs\division.ico" />
+    <Content Include="Imgs\login.ico" />
+    <Content Include="Imgs\member.ico" />
+    <Content Include="Imgs\rental.ico" />
+    <None Include="Imgs\rental.png" />
+    <None Include="Imgs\member.png" />
+    <None Include="Imgs\book.png" />
+    <None Include="Imgs\division.png" />
+    <None Include="Imgs\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

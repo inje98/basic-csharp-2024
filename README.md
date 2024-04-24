@@ -354,10 +354,15 @@
         - 공통 클래스...
         - 책장르 관리
         - 책정보 관리
+        
+        
+## 10일차
+- 토이 프로젝트
+    - 도서관리 앱
         - 도서회원 관리
         - 대출관리
         - 이 프로그램은...
-
+        ![중간결과](https://github.com/inje98/basic-csharp-2024/blob/main/Images/cs006.png?raw=true)
 
 ## 나머지
 - Pending

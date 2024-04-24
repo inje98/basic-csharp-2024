@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timer", "Timer\Timer.csproj", "{60D7E810-9F75-4F34-90E1-9AA9897C207F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{0BF8A939-E175-49B2-8711-C58A43CAE081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D7E810-9F75-4F34-90E1-9AA9897C207F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D7E810-9F75-4F34-90E1-9AA9897C207F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D7E810-9F75-4F34-90E1-9AA9897C207F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D7E810-9F75-4F34-90E1-9AA9897C207F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB848A4C-4EE0-4FDC-905B-00E104B60B50}
+	EndGlobalSection
+EndGlobal

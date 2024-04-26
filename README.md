@@ -363,7 +363,7 @@
         - 대출관리
         - 이 프로그램은...
         
-        ![중간결과](https://github.com/inje98/basic-csharp-2024/blob/main/Images/cs006.png?raw=true)
+        ![완성](https://github.com/inje98/basic-csharp-2024/blob/main/Images/cs006.png?raw=true)
 
 ## 나머지
 - Pending
@@ -373,4 +373,9 @@
     
     
 ## 개인 토이프로젝트
-- 
+- 시계 앱
+    - FrmMain 화면
+    
+    ![FrmMain화면](https://github.com/inje98/basic-csharp-2024/blob/main/portfolio/CaptureScrean/FrmMain.png?raw=true)
+
+

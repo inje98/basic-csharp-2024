@@ -29,14 +29,17 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WorldTime));
             button1 = new Button();
             groupBox1 = new GroupBox();
             label1 = new Label();
             comboBox1 = new ComboBox();
             groupBox2 = new GroupBox();
+            label3 = new Label();
             label2 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
             pictureBox1 = new PictureBox();
+            imageList1 = new ImageList(components);
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -45,11 +48,11 @@
             // button1
             // 
             button1.ForeColor = Color.Black;
-            button1.Location = new Point(246, 55);
+            button1.Location = new Point(233, 56);
             button1.Name = "button1";
             button1.Size = new Size(77, 23);
             button1.TabIndex = 4;
-            button1.Text = "button1";
+            button1.Text = "확인";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -64,13 +67,12 @@
             groupBox1.Size = new Size(356, 121);
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 129);
-            label1.Location = new Point(44, 57);
+            label1.Location = new Point(31, 58);
             label1.Name = "label1";
             label1.Size = new Size(60, 17);
             label1.TabIndex = 6;
@@ -79,14 +81,15 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "한국", "뉴욕", "중국" });
-            comboBox1.Location = new Point(110, 55);
+            comboBox1.Items.AddRange(new object[] { "한국", "뉴욕", "중국", "알래스카", "이집트", "베네수엘라" });
+            comboBox1.Location = new Point(97, 56);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(130, 23);
             comboBox1.TabIndex = 5;
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(label2);
             groupBox2.ForeColor = Color.White;
             groupBox2.Location = new Point(438, 532);
@@ -94,15 +97,24 @@
             groupBox2.Size = new Size(663, 121);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("나눔고딕코딩", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(50, 47);
+            label3.Name = "label3";
+            label3.Size = new Size(206, 32);
+            label3.TabIndex = 1;
+            label3.Text = "현재 시각 : ";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("맑은 고딕", 24F, FontStyle.Regular, GraphicsUnit.Point, 129);
-            label2.Location = new Point(137, 34);
+            label2.Font = new Font("나눔고딕코딩", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(262, 47);
             label2.Name = "label2";
-            label2.Size = new Size(0, 45);
+            label2.Size = new Size(0, 32);
             label2.TabIndex = 0;
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -120,6 +132,19 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
+            pictureBox1.Paint += pictureBox1_Paint;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "Ping.png");
+            imageList1.Images.SetKeyName(1, "Ping.png");
+            imageList1.Images.SetKeyName(2, "Ping.png");
+            imageList1.Images.SetKeyName(3, "Ping.png");
+            imageList1.Images.SetKeyName(4, "Ping.png");
+            imageList1.Images.SetKeyName(5, "Ping.png");
             // 
             // WorldTime
             // 
@@ -148,5 +173,7 @@
         private Label label2;
         private System.Windows.Forms.Timer timer1;
         private PictureBox pictureBox1;
+        private ImageList imageList1;
+        private Label label3;
     }
 }

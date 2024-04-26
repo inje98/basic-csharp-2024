@@ -40,7 +40,7 @@
             설정ToolStripMenuItem = new ToolStripMenuItem();
             알람ToolStripMenuItem = new ToolStripMenuItem();
             도움말ToolStripMenuItem = new ToolStripMenuItem();
-            이프로그램은ToolStripMenuItem = new ToolStripMenuItem();
+            TsmAbout = new ToolStripMenuItem();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             pMain.SuspendLayout();
@@ -61,7 +61,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 94.1102753F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 5.88972425F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 8F));
-            tableLayoutPanel1.Size = new Size(1210, 807);
+            tableLayoutPanel1.Size = new Size(1079, 732);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -77,11 +77,11 @@
             tableLayoutPanel2.Controls.Add(BtnWordTime, 2, 0);
             tableLayoutPanel2.Controls.Add(BtnClose, 4, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 754);
+            tableLayoutPanel2.Location = new Point(3, 684);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1204, 41);
+            tableLayoutPanel2.Size = new Size(1073, 36);
             tableLayoutPanel2.TabIndex = 0;
             // 
             // BtnStopWatch
@@ -89,7 +89,7 @@
             BtnStopWatch.Dock = DockStyle.Fill;
             BtnStopWatch.Location = new Point(3, 3);
             BtnStopWatch.Name = "BtnStopWatch";
-            BtnStopWatch.Size = new Size(165, 35);
+            BtnStopWatch.Size = new Size(146, 30);
             BtnStopWatch.TabIndex = 1;
             BtnStopWatch.Text = "스톱워치";
             BtnStopWatch.UseVisualStyleBackColor = true;
@@ -98,9 +98,9 @@
             // BtnAlam
             // 
             BtnAlam.Dock = DockStyle.Fill;
-            BtnAlam.Location = new Point(174, 3);
+            BtnAlam.Location = new Point(155, 3);
             BtnAlam.Name = "BtnAlam";
-            BtnAlam.Size = new Size(165, 35);
+            BtnAlam.Size = new Size(146, 30);
             BtnAlam.TabIndex = 2;
             BtnAlam.Text = "알람";
             BtnAlam.UseVisualStyleBackColor = true;
@@ -109,9 +109,9 @@
             // BtnWordTime
             // 
             BtnWordTime.Dock = DockStyle.Fill;
-            BtnWordTime.Location = new Point(345, 3);
+            BtnWordTime.Location = new Point(307, 3);
             BtnWordTime.Name = "BtnWordTime";
-            BtnWordTime.Size = new Size(165, 35);
+            BtnWordTime.Size = new Size(146, 30);
             BtnWordTime.TabIndex = 3;
             BtnWordTime.Text = "세계시각";
             BtnWordTime.UseVisualStyleBackColor = true;
@@ -120,9 +120,9 @@
             // BtnClose
             // 
             BtnClose.Dock = DockStyle.Fill;
-            BtnClose.Location = new Point(1033, 3);
+            BtnClose.Location = new Point(920, 3);
             BtnClose.Name = "BtnClose";
-            BtnClose.Size = new Size(168, 35);
+            BtnClose.Size = new Size(150, 30);
             BtnClose.TabIndex = 4;
             BtnClose.Text = "나가기";
             BtnClose.UseVisualStyleBackColor = true;
@@ -135,7 +135,7 @@
             pMain.Dock = DockStyle.Fill;
             pMain.Location = new Point(3, 3);
             pMain.Name = "pMain";
-            pMain.Size = new Size(1204, 745);
+            pMain.Size = new Size(1073, 675);
             pMain.TabIndex = 5;
             // 
             // menuStrip1
@@ -143,7 +143,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { 설정ToolStripMenuItem, 도움말ToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1204, 24);
+            menuStrip1.Size = new Size(1073, 24);
             menuStrip1.TabIndex = 7;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -162,23 +162,24 @@
             // 
             // 도움말ToolStripMenuItem
             // 
-            도움말ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 이프로그램은ToolStripMenuItem });
+            도움말ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { TsmAbout });
             도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
             도움말ToolStripMenuItem.Size = new Size(55, 20);
             도움말ToolStripMenuItem.Text = "도움말";
             // 
-            // 이프로그램은ToolStripMenuItem
+            // TsmAbout
             // 
-            이프로그램은ToolStripMenuItem.Name = "이프로그램은ToolStripMenuItem";
-            이프로그램은ToolStripMenuItem.Size = new Size(159, 22);
-            이프로그램은ToolStripMenuItem.Text = "이 프로그램은...";
+            TsmAbout.Name = "TsmAbout";
+            TsmAbout.Size = new Size(180, 22);
+            TsmAbout.Text = "이 프로그램은...";
+            TsmAbout.Click += TsmAbout_Click;
             // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(29, 38, 48);
-            ClientSize = new Size(1210, 807);
+            ClientSize = new Size(1079, 732);
             Controls.Add(tableLayoutPanel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
@@ -207,6 +208,6 @@
         private ToolStripMenuItem 설정ToolStripMenuItem;
         private ToolStripMenuItem 알람ToolStripMenuItem;
         private ToolStripMenuItem 도움말ToolStripMenuItem;
-        private ToolStripMenuItem 이프로그램은ToolStripMenuItem;
+        private ToolStripMenuItem TsmAbout;
     }
 }

@@ -51,6 +51,12 @@ namespace MyTimer
             Application.Exit();
         }
 
-
+        private void TsmAbout_Click(object sender, EventArgs e)
+        {
+            FrmAbout popup = new FrmAbout();
+            popup.StartPosition = FormStartPosition.CenterParent;
+            popup.ShowDialog();
+        }
     }
+    
 }

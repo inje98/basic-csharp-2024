@@ -375,7 +375,11 @@
 ## 개인 토이프로젝트
 - 시계 앱
     - FrmMain 화면
-    
+        - 스톱워치, 알람, 세계시각, 나가기 버튼 
+
     ![FrmMain화면](https://github.com/inje98/basic-csharp-2024/blob/main/portfolio/CaptureScrean/FrmMain.png?raw=true)
+    
+    
+    
 
 

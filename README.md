@@ -384,7 +384,7 @@
         - 구간기록 버튼으로 측정시점과 측정 시간을 그리드에 출력
         - 정지버튼
         - 초기화 버튼을 눌러 시간과 그리드 초기화
-    ![타이머화면] (https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer01.png)
+    ![타이머화면](https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer01.png)
 
     - 알람화면
         - 1분, 3분, 5분, 10분으로 설정된 알람과 사용자가 직접 시간을 설정할 수 있는 알람 기능

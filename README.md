@@ -378,6 +378,23 @@
         - 스톱워치, 알람, 세계시각, 나가기 버튼 
 
     ![FrmMain화면](https://github.com/inje98/basic-csharp-2024/blob/main/portfolio/CaptureScrean/FrmMain.png?raw=true)
+
+    - 타이머 화면
+        - 시작버튼을 눌러서 타이머 스타트
+        - 구간기록 버튼으로 측정시점과 측정 시간을 그리드에 출력
+        - 정지버튼
+        - 초기화 버튼을 눌러 시간과 그리드 초기화
+    ![타이머화면] (https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer01.png)
+
+    - 알람화면
+        - 1분, 3분, 5분, 10분으로 설정된 알람과 사용자가 직접 시간을 설정할 수 있는 알람 기능
+        - 알람 시간이 다되면 "종료되었습니다"라는 문구와 함께 알림이 가도록 구현
+    ![알람화면](https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer02.png)
+
+    - 세계시각
+        - 콤보박스에서 나라를 선택하면 그 나라의 위치와 그 나라의 현재 시각을 라벨에 띄어 사용자에게 알려주는 기능
+    ![세계시각화면](https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer03.png)
+
     
     
     

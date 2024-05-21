@@ -395,8 +395,13 @@
         - 콤보박스에서 나라를 선택하면 그 나라의 위치와 그 나라의 현재 시각을 라벨에 띄어 사용자에게 알려주는 기능
     ![세계시각화면](https://raw.githubusercontent.com/inje98/basic-csharp-2024/main/portfolio/imgs/timer03.png)
 
+    - 전체 영상
+      
     
-    
+
+    https://github.com/inje98/basic-csharp-2024/assets/158007381/428610ef-93e2-4aa0-91a7-9cdeb48a2955
+
+
     
 
 
